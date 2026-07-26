@@ -47,11 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a Computer Programming and Analysis graduate with 
+        over two years of hands-on software development experience 
+        gained through academic projects and a Technical Analyst co-op. 
+        Throughout my journey, I have designed and developed full-stack web and mobile applications, 
+        database solutions, software testing solutions, and cloud-based projects using modern programming languages and frameworks. 
+        I have built a strong foundation in Agile development, software engineering principles, technical documentation, problem-solving, 
+        and collaborating with cross-functional teams to deliver user-focused software solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
