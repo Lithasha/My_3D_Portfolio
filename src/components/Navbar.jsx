@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import { link } from "framer-motion/client";
+// import { link } from "framer-motion/client";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -53,13 +53,13 @@ const Navbar = () => {
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
-              key={link.id}
+              key={nav.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
+              onClick={() => setActive(nav.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>

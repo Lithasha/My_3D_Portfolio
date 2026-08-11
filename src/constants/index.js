@@ -1,4 +1,4 @@
-import { a } from "framer-motion/client";
+// import { a } from "framer-motion/client";
 import {
   mobile,
   backend,
@@ -26,23 +26,19 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  sqlserver,
+  selenium,
+  sqlServer,
   carrent,
   jobit,
   tripguide,
   aws,
-  selenium,
-  resApi,
+  restApi,
   github,
   postgresql,
-  visualstudio,
-  visualstudiocode,
+  visualStudio,
+  visualStudioCode,
   intellij,
-  androidstudio,
+  androidStudio,
   pgadmin,
   ssms,
   postman,
@@ -163,7 +159,7 @@ const frameworksTechnologies = [
   },
   {
     name: "SQL Server",
-    icon: sqlserver,
+    icon: sqlServer,
   },
   {
     name: "AWS",
@@ -175,7 +171,7 @@ const frameworksTechnologies = [
   },
   {
     name: "REST API",
-    icon: resApi,
+    icon: restApi,
   },
   {
     name: "Docker",
@@ -202,15 +198,15 @@ const tools = [
   },
   {
     name: "Visual Studio Code",
-    icon: visualstudiocode,
+    icon: visualStudioCode,
   },
   {
     name: "Visual Studio",
-    icon: visualstudio,
+    icon: visualStudio,
   },
   {
     name: "Android Studio",
-    icon: androidstudio,
+    icon: androidStudio,
   },
   {
     name: "IntelliJ IDEA",
