@@ -28,9 +28,12 @@ import {
   docker,
   selenium,
   sqlServer,
-  carrent,
-  jobit,
-  tripguide,
+  campusCare,
+  makeup,
+  kiyoshi,
+  testAutomation,
+  weather,
+  hospital,
   aws,
   restApi,
   github,
@@ -395,9 +398,69 @@ const projects = [
         name: "PostgreSQL (NeonDB)",
         color: "pink-text-gradient",
       },
+      {
+        name: "REST API",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
+    image: campusCare,
     source_code_link: "https://github.com/Lithasha/campus-care",
+  },
+  {
+    name: "Sushi Bai Kiyoshi", 
+    description:[
+        "Designed and developed a full-stack order management system based on a real-world business case, leading requirements gathering and system design.",
+        "Created ERDs, system boundary diagrams, and detailed functional and non-functional specifications while implementing role-based access control, inventory, loyalty, menu, and cart management." ,
+        "Presented the completed solution to a review panel, demonstrating its functionality and overall system design.",
+    ],
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RBAC",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: kiyoshi,
+    source_code_link: "https://github.com/Lithasha/KiyoshisRestaurant",
+  },
+  {
+    name: "Makeup Product Showcase Web Application", 
+    description:[
+        "Collaborated in a two-person team to develop a responsive web application using Next.js and Contentful CMS with dynamic routing, static site generation, pagination, and reusable components. ",
+        "Implemented secure authentication using JWT, protected API routes, and role-based access control for administrative product management. ",
+        "Applied modern development practices and Git-based version control to build a scalable and maintainable application. ",
+    ],
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Contentful CMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT Authentication",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: makeup,
+    source_code_link: "https://github.com/Lithasha/makeup-products-showcase",
   },
   {
     name: "Test Automation of Bank Project",
@@ -416,9 +479,17 @@ const projects = [
         name: "Selenium",
         color: "green-text-gradient",
       },
+      {
+        name: "Test Automation",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "QA",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/Lithasha/",
+    image: testAutomation,
+    // source_code_link: "https://github.com/Lithasha/",
   },
   {
     name: "Weather Forecast App", 
@@ -440,10 +511,140 @@ const projects = [
         name: "JSON",
         color: "pink-text-gradient",
       },
+      {
+        name: "REST API",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/Lithasha/weather-app",
   },
+  {
+    name: "Hospital Database Management Project", 
+    description:[
+        "Collaborated with a four-member team to design and develop a hospital database using SQL Server Management Studio and Visio ERDs.",
+        "Developed SQL queries to manage and retrieve patient, appointment, and staff data while maintaining data integrity.",
+        "Created technical documentation and presented the database architecture, functionality, and design decisions.",
+    ],
+    tags: [
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL Server",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ERD",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Database Design",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: hospital,
+    // source_code_link: "https://github.com/",
+  },
+  // {
+  //   name: "Dojo Blog Application", 
+  //   description:[
+  //       "Built a responsive CRUD blog application using React, HTML and CSS in Visual Studio Code, allowing users to create, view, update, and delete blog posts.",
+  //       "Implemented dynamic UI components and state management to provide a smooth and interactive user experience.",
+  //       "Designed reusable components and organized application logic to improve maintainability, functionality, and overall responsiveness.",
+  //   ],
+  //   tags: [
+  //     {
+  //       name: "React.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "pink-text-gradient",
+  //     }
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/Lithasha/Dojo-Blog",
+  // },
+  // {
+  //   name: "Go Fish", 
+  //   description:[
+  //       "Collaborated with a team of three to develop a fully accessible two-player Go Fish desktop application using C# and Visual Studio.",
+  //       "Implemented customizable card count options, game logic, and interactive features to provide flexible and engaging gameplay.",
+  //       "Designed an intuitive, accessible user interface and contributed to testing and debugging to ensure a smooth experience for all users.",
+  //   ],
+  //   tags: [
+  //     {
+  //       name: "C#",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: ".NET",
+  //       color: "green-text-gradient",
+  //     }
+  //   ],
+  //   image: tripguide,
+  //   // source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Grade Management Website", 
+  //   description:[
+  //       "Developed a dynamic student grade management website using PHP, HTML, SQL, pgAdmin, and Visual Studio Code.",
+  //       "Designed and integrated a relational database to securely store, manage, and retrieve student grade records",
+  //       "Implemented database-driven functionality to efficiently retrieve and display student grades through an intuitive and responsive web interface.",
+  //   ],
+  //   tags: [
+  //     {
+  //       name: "PHP",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "SQL",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "pgAdmin",
+  //       color: "blue-text-gradient",
+  //     }
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Tic Tac Toe Game",
+
+  //   description: [
+  //     "Developed a two-player Tic Tac Toe desktop game using C# and Visual Studio.",
+  //     "Implemented core game logic, player turn management, and win/draw conditions to support interactive gameplay.",
+  //     "Tested and debugged game functionality to ensure reliable and responsive user interactions."
+  //   ],
+
+  //   tags: [
+  //     {
+  //       name: "C#",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Visual Studio",
+  //       color: "green-text-gradient",
+  //     }
+  //   ],
+
+  //   image: tictactoe,
+
+  //   source_code_link: "https://github.com/",
+  // },
+  
+  
 ];
 
 export { services, technologies, frameworksTechnologies, tools, methodologiesConcepts, experiences, testimonials, projects };

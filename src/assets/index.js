@@ -57,9 +57,12 @@ import durhamCollege from "./company/durhamCollege.png";
 import jinadasaConsultingInc from "./company/jinadasaConsultingInc.png";
 import oxfordLearning from "./company/oxfordLearning.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import campusCare from "./campusCare.png";
+import hospital from "./hospital.png";
+import kiyoshi from "./kiyoshi.png";
+import testAutomation from "./testAutomation.png";
+import weather from "./weather.jpg";
+import makeup from "./makeup.png";
 
 
 export {
@@ -118,7 +121,10 @@ export {
   durhamCollege,
   jinadasaConsultingInc,
   oxfordLearning,
-  carrent,
-  jobit,
-  tripguide,
+  campusCare,
+  hospital,
+  kiyoshi,
+  testAutomation,
+  weather,
+  makeup
 };

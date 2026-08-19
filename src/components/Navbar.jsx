@@ -43,10 +43,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo'className='w-9 h-9 object-contain rounded-full'/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Lithasha &nbsp;
-            <span className='sm:block hidden'> |Lithasha Thanippuli Appuhamilage</span>
+            {/* Lithasha &nbsp; */}
+            <span className='sm:block hidden'> Lithasha Thanippuli Appuhamilage</span>
           </p>
         </Link>
 
