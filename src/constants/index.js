@@ -404,7 +404,7 @@ const projects = [
       },
     ],
     image: campusCare,
-    source_code_link: "https://github.com/Lithasha/campus-care",
+    source_code_link: null,
   },
   {
     name: "Sushi Bai Kiyoshi", 
@@ -489,7 +489,7 @@ const projects = [
       },
     ],
     image: testAutomation,
-    // source_code_link: "https://github.com/Lithasha/",
+    source_code_link: null,
   },
   {
     name: "Weather Forecast App", 
@@ -517,7 +517,7 @@ const projects = [
       },
     ],
     image: weather,
-    source_code_link: "https://github.com/Lithasha/weather-app",
+    source_code_link: null,
   },
   {
     name: "Hospital Database Management Project", 
@@ -545,7 +545,7 @@ const projects = [
       }
     ],
     image: hospital,
-    // source_code_link: "https://github.com/",
+    source_code_link: null,
   },
   // {
   //   name: "Dojo Blog Application", 
