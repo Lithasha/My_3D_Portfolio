@@ -47,7 +47,7 @@ import java from "./tech/java.svg";
 import php from "./tech/php.png";
 import python from "./tech/python.svg";
 import sql from "./tech/sql.svg";
-import sqlServer from "./tech/sqlServer.png";
+// import sqlServer from "./tech/sqlServer.png";
 import visualStudio from "./tech/visualStudio.jpg";
 import visualStudioCode from "./tech/visualStudioCode.jpg";
 import visio from "./tech/visio.jpg";
@@ -95,7 +95,7 @@ export {
   php,
   python,
   sql,
-  sqlServer,
+  // sqlServer,
   visualStudio,
   visualStudioCode,
   intellij,
