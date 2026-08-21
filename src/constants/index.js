@@ -380,9 +380,9 @@ const projects = [
   {
     name: "Campus Care",
     description: [
-      "Built a fully accessible full-stack appointment booking and virtual queue management system using React.js, Node.js, and PostgreSQL (NeonDB). ",
-      "Developed responsive user interfaces, REST APIs, and CRUD functionality for managing appointments and reducing patient wait times.",
-      "Led a four-member development team and collaborated with a health clinic manager to gather requirements and deliver features aligned with real-world healthcare workflows.",
+      "Built a fully accessible full-stack appointment booking and virtual queue management system using React.js, Node.js, and PostgreSQL (NeonDB).",
+      " Developed responsive user interfaces, REST APIs, and CRUD functionality for managing appointments and reducing patient wait times.",
+      " Collaborated as part of a four-member development team with a health clinic manager to gather requirements and deliver features aligned with real-world healthcare workflows.",
     ],
     tags: [
       {
@@ -408,9 +408,9 @@ const projects = [
   {
     name: "Sushi Bai Kiyoshi",
     description: [
-      "Designed and developed a full-stack order management system based on a real-world business case, leading requirements gathering and system design.",
-      "Created ERDs, system boundary diagrams, and detailed functional and non-functional specifications while implementing role-based access control, inventory, loyalty, menu, and cart management.",
-      "Presented the completed solution to a review panel, demonstrating its functionality and overall system design.",
+      "Collaborated as part of a team to design and develop a full-stack order management system based on a real-world business case, contributing to database structure, requirements gathering, and system boundary design.",
+      " Developed ERDs and detailed functional and non-functional specifications while implementing role-based access control, inventory, loyalty, menu, and cart management.",
+      " Presented the completed solution as a team to a review panel, demonstrating its functionality and overall system design.",
     ],
     tags: [
       {
@@ -436,7 +436,7 @@ const projects = [
   {
     name: "Makeup Product Showcase Web Application",
     description: [
-      "Collaborated in a two-person team to develop a responsive web application using Next.js and Contentful CMS with dynamic routing, static site generation, pagination, and reusable components. ",
+      "Collaborated in a team of two to develop a responsive web application using Next.js and Contentful CMS with dynamic routing, static site generation, pagination, and reusable components. ",
       "Implemented secure authentication using JWT, protected API routes, and role-based access control for administrative product management. ",
       "Applied modern development practices and Git-based version control to build a scalable and maintainable application. ",
     ],
@@ -465,8 +465,8 @@ const projects = [
     name: "Test Automation of Bank Project",
     description: [
       "Developed automated test scripts using Python and Selenium to validate a banking web application's functionality. ",
-      "Executed regression and functional test cases across multiple user scenarios, identifying defects and verifying expected application behaviour.",
-      "Guided a four-member team to design test cases, document results, and improve software quality. ",
+      " Executed regression and functional test cases across multiple user scenarios, identifying defects and verifying expected application behaviour.",
+      " Collaborated in a four-member team to design test cases, document results, and improve software quality. ",
     ],
 
     tags: [
@@ -646,4 +646,4 @@ const projects = [
 
 ];
 
-export { services, technologies,experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects };
