@@ -43,18 +43,30 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I am a Computer Programming and Analysis graduate with 
-        over two years of hands-on software development experience 
-        gained through academic projects and a Technical Analyst co-op. 
-        Throughout my journey, I have designed and developed full-stack web and mobile applications, 
-        database solutions, software testing solutions, and cloud-based projects using modern programming languages and frameworks. 
-        I have built a strong foundation in Agile development, software engineering principles, technical documentation, problem-solving, 
-        and collaborating with cross-functional teams to deliver user-focused software solutions.
-      </motion.p>
+      <motion.div
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
+>
+  <p>
+    I’m a Computer Programming and Analysis graduate from Durham College with
+    a 4.87/5.0 GPA and President’s Honour Roll recognition. I’m passionate
+    about building reliable, user-focused software and turning complex
+    problems into thoughtful, practical solutions.
+  </p>
+
+  <p className='mt-5'>
+    Through my Technical Analyst co-op experience and academic projects, I’ve
+    developed a strong foundation in software development while strengthening
+    my ability to approach problems analytically, communicate effectively,
+    and collaborate within a team. I’m naturally curious, adaptable, and always
+    looking for opportunities to learn, improve, and take on new challenges.
+  </p>
+
+  <p className='mt-5'>
+    I’m excited to contribute to meaningful projects, continue growing as a
+    software professional, and build technology that makes a real difference.
+  </p>
+</motion.div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
