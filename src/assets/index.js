@@ -56,7 +56,7 @@ import dcsa from "./company/dcsa.png";
 import durhamCollege from "./company/durhamCollege.png";
 import jinadasaConsultingInc from "./company/jinadasaConsultingInc.png";
 import oxfordLearning from "./company/oxfordLearning.png";
-
+import profile from "./profile.png";
 import campusCare from "./campusCare.png";
 import hospital from "./hospital.png";
 import kiyoshi from "./kiyoshi.png";
@@ -66,6 +66,7 @@ import makeup from "./makeup.png";
 
 
 export {
+  profile,
   logo,
   backend,
   creator,

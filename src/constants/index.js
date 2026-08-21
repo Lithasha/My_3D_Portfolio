@@ -1,5 +1,6 @@
 // import { a } from "framer-motion/client";
 import {
+  profile,
   mobile,
   backend,
   creator,
@@ -313,67 +314,67 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Driven to succeed and keen to learn, Lithasha approaches her development with a mindset that sets her apart. She isn't chasing a finish line — she's chasing a better version of herself than the one that walked in the day before. That kind of intrinsic motivation is something no curriculum can install in a person. You either have it or you don't, and Lithasha has it in a way that makes everything else she does sharper, more purposeful, and more meaningful.",
+      "Driven to succeed and keen to learn, Lithasha approaches her development with a mindset that sets her apart. She isn't chasing a finish line — she's chasing a better version of herself than the one that walked in the day before.",
     name: "Stephen Forbes",
     designation: "Professor of Information Technology",
     company: "Durham College",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // image: profile,
     linkedin: "https://www.linkedin.com/in/stephenjdforbes/",
   },
   {
     testimonial:
-      "If I could hire Lithasha, I would in a heartbeat. She has proven to have a fantastic work ethic and determination that is rare in students in recent years. In a class where students seldom show up, she is there, putting in the work and taking the time to learn. I would stake my reputation on recommending anyone hire her and take a chance on her. You will NOT be disappointed.",
+      "If I could hire Lithasha, I would in a heartbeat. She has proven to have a fantastic work ethic and determination that is rare in students in recent years.",
     name: "Thomas Turner",
     designation: "Part-time Faculty",
     company: "Durham College",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // image: profile,
     linkedin: "https://www.linkedin.com/in/thomasmturner/",
   },
   {
     testimonial:
-      "Her communication skills were admirable, both in terms of initiating communication and regarding her written English and professional tone. She asked clarification questions when necessary and wasn't afraid to reach out as needed.She performed very well in the course and was among my best students this semester.",
+      "She stood out due to her genuine interest in the course content and focus on true understanding of the material (rather than simply trying to memorize it for assessments as many student do).",
     name: "Dr. Lynne (Daigle) Kennette",
     designation: "Professor of Psychology",
     company: "Durham College",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // image: profile,
     linkedin: "https://www.linkedin.com/in/drkennette/",
   },
-  // {
-  //   testimonial:
-  //     "What impressed me most was Lithasha’s proactive approach to learning; she was never afraid to ask the tough questions required to truly master a complex concept.Throughout the term, she demonstrated a solid grasp of web development fundamentals, specifically excelling in her understanding of HTTP APIs and microservice architecture.",
-  //   name: "Andrew Luxmore",
-  //   designation: "Professor",
-  //   company: "Durham College",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   linkedin: "https://www.linkedin.com/in/andrew-luxmore-218b44360/",
-  // },
-  // {
-  //   testimonial:
-  //     "I taught Lithasha in four courses between 2024-2025, including Introduction to Programming, two Object-Oriented Programming courses, and Emerging Technologies. She consistently achieved excellent results and brought a thoughtful, curious presence to class. In OOP3 she produced an outstanding comparative report on Java versus Python, reflecting strong analytical and written communication skills.Lithasha is also quick to seek clarification when needed, often visiting office hours with insightful questions that sometimes informed future classes. ",
-  //   name: "Kyle Chapman",
-  //   designation: "Full-time Faculty",
-  //   company: "Durham College",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   linkedin: "https://www.linkedin.com/in/kyledchapman/",
-  // },
-  // {
-  //   testimonial:
-  //     "Lithasha distinguished themselves as one of the strongest students across two mainframe development courses with me, consistently demonstrating dedication and focus on mastery in a technology known for its complexity and demanding learning curve.Lithasha's strong analysis and design skills, combined with their collaborative approach and attention to detail, resulted in consistently polished work. Lithasha's commitment to mastery and professional approach to both independent and collaborative work make them an excellent candidate for any technical role.",
-  //   name: "Andrew Mayne",
-  //   designation: "Full-time Faculty",
-  //   company: "Durham College",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   linkedin: "https://www.linkedin.com/in/andrew-mayne-5a7b4681/",
-  // },
-  // {
-  //   testimonial:
-  //     "Lithasha demonstrated solid technical skills, a clear understanding of core web development concepts, and a growing confidence in her abilities.  She would be a great addition to any team and has a very promising future ahead.",
-  //   name: "Sergio Santilli",
-  //   designation: "Full-time Faculty",
-  //   company: "Durham College",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   linkedin: "https://www.linkedin.com/in/sergio-santilli-69b73732/",
-  // }
+  {
+    testimonial:
+      "What impressed me most was Lithasha’s proactive approach to learning; she was never afraid to ask the tough questions required to truly master a complex concept.",
+    name: "Andrew Luxmore",
+    designation: "Professor",
+    company: "Durham College",
+    // image: profile,
+    linkedin: "https://www.linkedin.com/in/andrew-luxmore-218b44360/",
+  },
+  {
+    testimonial:
+      "She consistently achieved excellent results and brought a thoughtful, curious presence to class. In OOP3 she produced an outstanding comparative report on Java versus Python, reflecting strong analytical and written communication skills.",
+    name: "Kyle Chapman",
+    designation: "Full-time Faculty",
+    company: "Durham College",
+    // image: profile,
+    linkedin: "https://www.linkedin.com/in/kyledchapman/",
+  },
+  {
+    testimonial:
+      "Lithasha distinguished themselves as one of the strongest students across two mainframe development courses with me, consistently demonstrating dedication and focus on mastery in a technology known for its complexity and demanding learning curve.",
+    name: "Andrew Mayne",
+    designation: "Full-time Faculty",
+    company: "Durham College",
+    // image: profile,
+    linkedin: "https://www.linkedin.com/in/andrew-mayne-5a7b4681/",
+  },
+  {
+    testimonial:
+      "Lithasha demonstrated solid technical skills, a clear understanding of core web development concepts, and a growing confidence in her abilities.  She would be a great addition to any team and has a very promising future ahead.",
+    name: "Sergio Santilli",
+    designation: "Full-time Faculty",
+    company: "Durham College",
+    // image: profile,
+    linkedin: "https://www.linkedin.com/in/sergio-santilli-69b73732/",
+  }
   
 ];
 
