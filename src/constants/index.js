@@ -105,39 +105,37 @@ const technologies = [
   {
     name: "C#",
     icon: csharp,
-  },  
-  {
-    name: "JavaScript",
-    icon: javascript,
   },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "SQL",
     icon: sql,
   },
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS",
-    icon: css,
-  },
-  {
-    name: "Dart",
-    icon: dart,
-  },
+  // {
+  //   name: "PHP",
+  //   icon: php,
+  // },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS",
+  //   icon: css,
+  // },
+  // {
+  //   name: "Dart",
+  //   icon: dart,
+  // },
   {
     name: "COBOL",
     icon: cobol,
-  }
-];
-
-const frameworksTechnologies = [
-   {
+  },
+  // Frameworks and Technologies
+  {
     name: "React.js",
     icon: reactjs,
   },
@@ -145,26 +143,26 @@ const frameworksTechnologies = [
     name: "Node.js",
     icon: nodejs,
   },
-  {
-    name: "Next.js",
-    icon: nextjs,
-  },
+  // {
+  //   name: "Next.js",
+  //   icon: nextjs,
+  // },
   {
     name: ".NET",
     icon: net,
   },
-  {
-    name: "Flutter",
-    icon: flutter,
-  },
+  // {
+  //   name: "Flutter",
+  //   icon: flutter,
+  // },
   {
     name: "PostgreSQL",
     icon: postgresql,
   },
-  {
-    name: "SQL Server",
-    icon: sqlServer,
-  },
+  // {
+  //   name: "SQL Server",
+  //   icon: sqlServer,
+  // },
   {
     name: "AWS",
     icon: aws,
@@ -181,88 +179,84 @@ const frameworksTechnologies = [
     name: "Docker",
     icon: docker,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-];
-
-const tools = [
-    {
-    name: "Visio",
-    icon: visio,
-  },
-  {
-    name: "Git",
-    icon: git,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // Tools
+  // {
+  //   name: "Visio",
+  //   icon: visio,
+  // },
+  // {
+  //   name: "Git",
+  //   icon: git,
+  // },
   {
     name: "GitHub",
     icon: github,
   },
-  {
-    name: "Visual Studio Code",
-    icon: visualStudioCode,
-  },
-  {
-    name: "Visual Studio",
-    icon: visualStudio,
-  },
-  {
-    name: "Android Studio",
-    icon: androidStudio,
-  },
-  {
-    name: "IntelliJ IDEA",
-    icon: intellij,
-  },
-  {
-    name: "PgAdmin",
-    icon: pgadmin,
-  },
-  {
-    name: "SQL Server Management Studio",
-    icon: ssms,
-  },
-  {
-    name: "Postman",
-    icon: postman,
-  },
-  {
-    name: "Jira",
-    icon: jira,
-  },
-  {
-    name: "Confluence",
-    icon: confluence,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-];
-
-const methodologiesConcepts = [
-    {
-    name: "Agile",
-    icon: agile,
-  },
-  {
-    name: "SDLC",
-    icon: sdlc,
-  },
-  {
-    name: "Software Testing",
-    icon: softwareTesting,
-  },
-  {
-    name: "Object-Oriented Programming (OOP)",
-    icon: oop,
-  },
-  {
-    name: "UML",
-    icon: uml,
-  }
+  // {
+  //   name: "Visual Studio Code",
+  //   icon: visualStudioCode,
+  // },
+  // {
+  //   name: "Visual Studio",
+  //   icon: visualStudio,
+  // },
+  // {
+  //   name: "Android Studio",
+  //   icon: androidStudio,
+  // },
+  // {
+  //   name: "IntelliJ IDEA",
+  //   icon: intellij,
+  // },
+  // {
+  //   name: "PgAdmin",
+  //   icon: pgadmin,
+  // },
+  // {
+  //   name: "SQL Server Management Studio",
+  //   icon: ssms,
+  // },
+  // {
+  //   name: "Postman",
+  //   icon: postman,
+  // },
+  // {
+  //   name: "Jira",
+  //   icon: jira,
+  // },
+  // {
+  //   name: "Confluence",
+  //   icon: confluence,
+  // },
+  // {
+  //   name: "Figma",
+  //   icon: figma,
+  // },
+  // Methodologies and Concepts
+  // {
+  //   name: "Agile",
+  //   icon: agile,
+  // },
+  // {
+  //   name: "SDLC",
+  //   icon: sdlc,
+  // },
+  // {
+  //   name: "Software Testing",
+  //   icon: softwareTesting,
+  // },
+  // {
+  //   name: "Object-Oriented Programming (OOP)",
+  //   icon: oop,
+  // },
+  // {
+  //   name: "UML",
+  //   icon: uml,
+  // }
 ];
 
 const experiences = [
@@ -379,7 +373,7 @@ const testimonials = [
     // image: profile,
     linkedin: "https://www.linkedin.com/in/sergio-santilli-69b73732/",
   }
-  
+
 ];
 
 const projects = [
@@ -412,11 +406,11 @@ const projects = [
     source_code_link: null,
   },
   {
-    name: "Sushi Bai Kiyoshi", 
-    description:[
-        "Designed and developed a full-stack order management system based on a real-world business case, leading requirements gathering and system design.",
-        "Created ERDs, system boundary diagrams, and detailed functional and non-functional specifications while implementing role-based access control, inventory, loyalty, menu, and cart management." ,
-        "Presented the completed solution to a review panel, demonstrating its functionality and overall system design.",
+    name: "Sushi Bai Kiyoshi",
+    description: [
+      "Designed and developed a full-stack order management system based on a real-world business case, leading requirements gathering and system design.",
+      "Created ERDs, system boundary diagrams, and detailed functional and non-functional specifications while implementing role-based access control, inventory, loyalty, menu, and cart management.",
+      "Presented the completed solution to a review panel, demonstrating its functionality and overall system design.",
     ],
     tags: [
       {
@@ -440,11 +434,11 @@ const projects = [
     source_code_link: "https://github.com/Lithasha/KiyoshisRestaurant",
   },
   {
-    name: "Makeup Product Showcase Web Application", 
-    description:[
-        "Collaborated in a two-person team to develop a responsive web application using Next.js and Contentful CMS with dynamic routing, static site generation, pagination, and reusable components. ",
-        "Implemented secure authentication using JWT, protected API routes, and role-based access control for administrative product management. ",
-        "Applied modern development practices and Git-based version control to build a scalable and maintainable application. ",
+    name: "Makeup Product Showcase Web Application",
+    description: [
+      "Collaborated in a two-person team to develop a responsive web application using Next.js and Contentful CMS with dynamic routing, static site generation, pagination, and reusable components. ",
+      "Implemented secure authentication using JWT, protected API routes, and role-based access control for administrative product management. ",
+      "Applied modern development practices and Git-based version control to build a scalable and maintainable application. ",
     ],
     tags: [
       {
@@ -470,11 +464,11 @@ const projects = [
   {
     name: "Test Automation of Bank Project",
     description: [
-        "Developed automated test scripts using Python and Selenium to validate a banking web application's functionality. ",
-        "Executed regression and functional test cases across multiple user scenarios, identifying defects and verifying expected application behaviour.",
-        "Guided a four-member team to design test cases, document results, and improve software quality. ",
+      "Developed automated test scripts using Python and Selenium to validate a banking web application's functionality. ",
+      "Executed regression and functional test cases across multiple user scenarios, identifying defects and verifying expected application behaviour.",
+      "Guided a four-member team to design test cases, document results, and improve software quality. ",
     ],
-      
+
     tags: [
       {
         name: "Python",
@@ -497,11 +491,11 @@ const projects = [
     source_code_link: null,
   },
   {
-    name: "Weather Forecast App", 
-    description:[
-        "Built a mobile weather application using Flutter and Dart with OpenWeather API integration to display current conditions and five-day forecasts.  ",
-        "Implemented API communication, JSON parsing, date/time conversion, and interactive navigation features.",
-        "Designed a responsive and intuitive user interface using clean UI principles to enhance the mobile user experience.",
+    name: "Weather Forecast App",
+    description: [
+      "Built a mobile weather application using Flutter and Dart with OpenWeather API integration to display current conditions and five-day forecasts.  ",
+      "Implemented API communication, JSON parsing, date/time conversion, and interactive navigation features.",
+      "Designed a responsive and intuitive user interface using clean UI principles to enhance the mobile user experience.",
     ],
     tags: [
       {
@@ -525,11 +519,11 @@ const projects = [
     source_code_link: null,
   },
   {
-    name: "Hospital Database Management Project", 
-    description:[
-        "Collaborated with a four-member team to design and develop a hospital database using SQL Server Management Studio and Visio ERDs.",
-        "Developed SQL queries to manage and retrieve patient, appointment, and staff data while maintaining data integrity.",
-        "Created technical documentation and presented the database architecture, functionality, and design decisions.",
+    name: "Hospital Database Management Project",
+    description: [
+      "Collaborated with a four-member team to design and develop a hospital database using SQL Server Management Studio and Visio ERDs.",
+      "Developed SQL queries to manage and retrieve patient, appointment, and staff data while maintaining data integrity.",
+      "Created technical documentation and presented the database architecture, functionality, and design decisions.",
     ],
     tags: [
       {
@@ -648,8 +642,8 @@ const projects = [
 
   //   source_code_link: "https://github.com/",
   // },
-  
-  
+
+
 ];
 
-export { services, technologies, frameworksTechnologies, tools, methodologiesConcepts, experiences, testimonials, projects };
+export { services, technologies,experiences, testimonials, projects };
