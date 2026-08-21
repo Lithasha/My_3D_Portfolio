@@ -51,7 +51,7 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <ul className='mt-2 text-secondary text-[14px] list-disc list-inside space-y-2' text-justify>
+          <ul className='mt-2 text-secondary text-[14px] list-disc list-inside space-y-2'>
             {description.map((point, index) => (
               <li key={index}>{point}</li>
             ))}

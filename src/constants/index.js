@@ -403,7 +403,7 @@ const projects = [
       },
     ],
     image: campusCare,
-    source_code_link: null,
+    source_code_link: "https://github.com/Lithasha/CampusCare",
   },
   {
     name: "Sushi Bai Kiyoshi",
@@ -516,7 +516,7 @@ const projects = [
       },
     ],
     image: weather,
-    source_code_link: null,
+    source_code_link: "https://github.com/Lithasha/WeatherApp",
   },
   {
     name: "Hospital Database Management Project",
