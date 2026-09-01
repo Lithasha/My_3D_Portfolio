@@ -28,7 +28,7 @@ import {
   figma,
   docker,
   selenium,
-  sqlServer,
+  // sqlServer,
   campusCare,
   makeup,
   kiyoshi,
