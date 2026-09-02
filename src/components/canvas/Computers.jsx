@@ -60,11 +60,21 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+    // <Canvas
+    //   frameloop='demand'
+    //   shadows
+    //   dpr={[1, 2]}
+    //   camera={{ position: [20, 3, 5], fov: 25 }}
+    //   gl={{ preserveDrawingBuffer: true }}
+    // >
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      dpr={[1, 1.5]}
+      camera={{
+        position: isMobile ? [15, 3, 6] : [20, 3, 5],
+        fov: isMobile ? 30 : 25,
+      }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
